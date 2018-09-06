@@ -1,5 +1,5 @@
 (function() {
-  let wrapElement = document.documentElement.getElementsByTagName('div')[0];
+  let wrapElement = document.documentElement.getElementsByClassName('wrapper-dropdown')[0];
   function showMenu() {
     this.classList.toggle('active');
   }
