@@ -5,6 +5,7 @@
   for (let drum of drumList) {
     drum.onclick = function () {
       const audioElem = this.getElementsByTagName('audio')[0];
+      audioElem.currentTime = 0;
       audioElem.play();
     }
   }
